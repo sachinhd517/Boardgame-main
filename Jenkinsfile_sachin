@@ -5,6 +5,7 @@ pipeline {
         maven 'mvn3.6'
         jdk 'jdk17'
     }
+
     stages {
 
         stage('New-Jenkinsfile') {
